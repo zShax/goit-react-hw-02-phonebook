@@ -1,0 +1,16 @@
+.container {
+  display: grid;
+  gap: 1em;
+  grid-auto-flow: column;
+  justify-content: center;
+
+  height: 100%;
+}
+
+.containerChild {
+  margin-top: 2em;
+}
+
+h3 {
+  color: #b5b5b5;
+}

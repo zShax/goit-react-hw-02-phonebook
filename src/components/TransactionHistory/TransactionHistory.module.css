@@ -1,0 +1,87 @@
+.container {
+  width: 500px;
+
+  display: grid;
+  place-items: center;
+
+  background-color: #fff;
+  border: 1px solid #d9dce0;
+  border-radius: 4px;
+
+  box-shadow: 0 4px 8px 0 #00000005, 0 6px 20px 0 #00000005;
+
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.transactionHistory {
+  position: relative;
+
+  font-size: 14px;
+  letter-spacing: 0.25px;
+
+  display: grid;
+  place-items: center;
+
+  width: 100%;
+}
+
+.transactionHistorySeparators {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+
+  width: calc(100% / 3);
+  height: 100%;
+
+  border-left: 1px solid #e5ebed;
+  border-right: 1px solid #e5ebed;
+
+  background-color: transparent;
+}
+
+.tableHeads {
+  color: #eff8ff;
+
+  width: 100%;
+
+  background-color: #00bcd5;
+}
+.tableHeadsRows {
+  font-size: 12px;
+
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  padding: 0.75em 0;
+}
+
+.tableHeadsRows th {
+  z-index: 1;
+}
+
+.tableBody {
+  color: #979ca2;
+
+  width: 100%;
+}
+
+.tableBodyRow {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+
+  width: 100%;
+
+  padding: 0.5em 0;
+}
+
+.tableBodyRow td {
+  z-index: 1;
+}
+
+.tableBodyRow:nth-child(even) {
+  background-color: #ecf1f3;
+}
