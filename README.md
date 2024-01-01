@@ -1,1 +1,1 @@
-# https://zshax.github.io/goit-react-hw-01-components/
+# https://zshax.github.io/goit-react-hw-02-feedback/
